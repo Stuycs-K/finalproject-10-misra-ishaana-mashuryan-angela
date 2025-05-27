@@ -1,0 +1,11 @@
+# Dev Log:
+
+This document must be updated daily every time you finish a work session.
+
+## Ishaana Misra
+
+### 2025-05-23
+We finalized our project topic after discussing it with Mr. K.
+
+### 2025-05-27
+We updated the repository with our group information and made a plan for the next week of work.
