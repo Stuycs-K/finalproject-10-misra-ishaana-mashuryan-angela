@@ -52,3 +52,6 @@ Mkfile.old
 dkms.conf
 
 bitcoin-29.0/
+
+*.swp
+*.gz
