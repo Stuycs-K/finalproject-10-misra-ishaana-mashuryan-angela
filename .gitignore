@@ -56,3 +56,5 @@ bitcoin-29.0/
 *.swp
 *.gz
 regtest_data/
+
+__pycache__/
