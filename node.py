@@ -28,3 +28,4 @@ class Node():
 if __name__ == '__main__':
     alice = Node("alice")
     bob = Node("bob")
+    charlie = Node("charlie")
