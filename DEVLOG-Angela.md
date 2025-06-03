@@ -12,3 +12,23 @@ We updated the repository with our group information and made a plan for the nex
 ### 2025-06-02
 I wrote the setup and cleanup scripts for Mac.
 
+## 2025-06-03
+Worked on researching the technical aspects of how Bitcoin works.
+
+Used the following sources:
+
+https://medium.com/@nik5ter/explain-bitcoin-like-im-five-73b4257ac833
+
+https://www.lopp.net/bitcoin-information/bitcoin-explained.html
+
+https://www.youtube.com/watch?v=YIVAluSL9SU
+
+https://www.youtube.com/watch?v=t5JGQXCTe3c
+
+https://www.youtube.com/watch?v=l9jOJk30eQs
+
+https://www.youtube.com/watch?v=bBC-nXj3Ng4
+
+
+Summarized the information in an md file and started a Google Slides for introduction/explanation of the simulation + details (later).
+
