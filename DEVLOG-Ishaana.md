@@ -12,3 +12,9 @@ We updated the repository with our group information and made a plan for the nex
 
 ### 2025-05-30
 I wrote the setup and cleanup scripts for linux, wrote the initial code for the nodes, and outlined the rest of the project
+
+## 2025-06-02
+I wrote the code to run a single node (the Node class)
+
+## 2025-06-03
+I wrote the code to run multiple nodes and the simulation class. I also spent some time debugging the RPC ports for the nodes.
