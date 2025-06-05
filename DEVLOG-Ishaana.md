@@ -18,3 +18,6 @@ I wrote the code to run a single node (the Node class)
 
 ## 2025-06-03
 I wrote the code to run multiple nodes and the simulation class. I also spent some time debugging the RPC ports for the nodes.
+
+## 2025-06-05
+Set up the python virtual enviornment and set up the jupyter notebook
