@@ -1,2 +1,5 @@
-rm bitcoin-29.0-x86_64-linux-gnu.tar.gz
+source simulation/bin/activate
+deactivate
+rm -r simulation
 rm -r regtest_data
+rm -r bitcoin-29.0
