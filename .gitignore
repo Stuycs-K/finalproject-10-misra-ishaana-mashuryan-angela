@@ -59,3 +59,4 @@ regtest_data/
 
 __pycache__/
 simulation/
+.ipynb_checkpoints/
