@@ -36,5 +36,5 @@ Summarized the information in an md file and started a Google Slides for introdu
 Finalized plans for the simulation and aspects of Bitcoin that will be covered. Prepared a plan for the slides to match.
 
 ## 2025-06-05
-Added slides for explaining Bitcoin and its history.
+Added slides for explaining Bitcoin and its history, plus how it works technically from the SHA256 function to mining and the blockchain, and everything users need to know for exploring the simulation.
 
