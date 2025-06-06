@@ -6,7 +6,7 @@ Ishaana Misra and Angela Mashuryan
        
 ### Project Description:
 
-Our project is a smaller-scale version of the real-life Bitcoin blockchain. The purpose is to allow users to experience making, sending, and receiving transactions within the scope of a tutorial.
+Our project is a smaller-scale version of the real-life Bitcoin blockchain. The purpose is to allow users to experience making, sending, and receiving transactions within the scope of a tutorial. Users are also able to mine blocks, experience how Bitcoins are created, how wallets function, and witness the cryptographic security measures behind digital signatures and IDs.
   
 ### Instructions:
 
