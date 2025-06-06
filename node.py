@@ -20,7 +20,9 @@ class Node():
 
         NODE_NUMBER += 1
 
-    def __del__(self):
+    # it is better to use a regular function instead of a destructor here because 
+    # a destructor would get too complicated while using Jupyter
+    def cleanup(self):
         print("shutting down")
         time.sleep(3)
         os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={8333+self.num} -rpcuser={self.name} -rpcpassword={self.num} stop")
@@ -29,3 +31,6 @@ if __name__ == '__main__':
     alice = Node("alice")
     bob = Node("bob")
     charlie = Node("charlie")
+    alice.cleanup()
+    bob.cleanup()
+    charlie.cleanup()
