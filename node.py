@@ -1,4 +1,7 @@
+from io import StringIO
 import os
+import subprocess
+import sys
 import time
 
 NODE_NUMBER = 0
@@ -34,11 +37,11 @@ class Node():
 
     def get_address(self):
         os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} getnewaddress")
+        ret = subprocess.check_output([f"pwd"], shell=True)
+        subprocess.check_output([f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} getbalance"], shell=True)
 
     def mine_block(self, address):
-        exec_string = f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} generatetoaddress 1 \"{address}\""
-        print(exec_string)
-        # os.system()
+        os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} generatetoaddress 1 \"{address}\"")
 
     def wallet_balance(self):
         os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} getbalance")
