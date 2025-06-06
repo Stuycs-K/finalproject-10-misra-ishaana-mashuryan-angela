@@ -38,3 +38,6 @@ Finalized plans for the simulation and aspects of Bitcoin that will be covered. 
 ## 2025-06-05
 Added slides for explaining Bitcoin and its history, plus how it works technically from the SHA256 function to mining and the blockchain, and everything users need to know for exploring the simulation.
 
+## 2025-06-05
+I finished the slides. Ishaana and I coordinated the organization of the slides and simulation to make it as cohesive as possible. We practiced running it on both Linux and Mac with Jupyter Notebook. We recorded the video, and I uploaded it to the Google Drive folder.
+
