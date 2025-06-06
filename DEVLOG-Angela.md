@@ -32,3 +32,9 @@ https://www.youtube.com/watch?v=bBC-nXj3Ng4
 
 Summarized the information in an md file and started a Google Slides for introduction/explanation of the simulation + details (later).
 
+## 2025-06-04
+Finalized plans for the simulation and aspects of Bitcoin that will be covered. Prepared a plan for the slides to match.
+
+## 2025-06-05
+Added slides for explaining Bitcoin and its history.
+
