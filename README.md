@@ -10,7 +10,7 @@ Our project is a smaller-scale version of the real-life Bitcoin blockchain. The 
   
 ### Instructions:
 
-https://docs.google.com/presentation/d/1pbh1f2tfaFyfSRmww5jv1ITNkX1oiqGg8Cbg8gAZ80Q/edit?usp=sharing
+https://drive.google.com/drive/folders/1jWmhe_xcIEUXMffIsKgzou0qLPxU53LI
 
 ### Resources/ References:
 
