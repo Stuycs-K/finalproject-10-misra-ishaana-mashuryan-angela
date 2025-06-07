@@ -20,7 +20,7 @@ class Node():
             os.system(f"mkdir {self.datadir}")
         except Exception:
             print("file exists")
-        os.system(f"./{EXEC_DIR}/bitcoind -regtest -datadir={self.datadir} -port={self.port} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} -daemon")
+        os.system(f"./{EXEC_DIR}/bitcoind -regtest -datadir={self.datadir} -port={self.port} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} -fallbackfee=0.0002 -daemon")
 
         NODE_NUMBER += 1
 
@@ -31,8 +31,8 @@ class Node():
         os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} getpeerinfo")
 
     def create_wallet(self):
-        os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} createwallet \"{self.name}_wallet\"")
-        os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} loadwallet \"{self.name}_wallet\"")
+        os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} createwallet \"{self.name}_wallet\" false false \"\" true")
+        # os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} loadwallet \"{self.name}_wallet\"")
 
     def get_address(self):
         os.system(f"./{EXEC_DIR}/bitcoin-cli -datadir={self.datadir} -rpcport={self.rpcport} -rpcuser={self.name} -rpcpassword={self.num} getnewaddress")
